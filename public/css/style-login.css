@@ -2,7 +2,7 @@ body {
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
 }
-
+	
 .nav-bar ul {
     list-style: none;
     display: flex;
@@ -50,48 +50,7 @@ footer {
     justify-content: center;
 }
 
-section .card-login {
-    position: relative;
-    width: 500px;
-    height: 350px;
-    border: #000 solid 1px;
-    position: fixed;
-    top: calc(50% - 175px);
-    left: calc(50% - 250px);
-}
-
-section .card-login .card-title {
-    display: flex;
-    justify-content: center;
-}
-
-section .card-login .card-end {
-    position: absolute;
-    bottom: 5%;
-    left: calc(50% - 20px);
-}
-section .card-login .card-end a {
-    text-decoration: none;
-    color: #0056d8d1;
-    margin: 0 10px;
-}
-section .card-login .card-end a:hover {
-    text-decoration: underline;
-}
-section .card-login .card-end .btn-login {
-    border: none;
-    width: 100px;
-    height: 50px;
-    background: #0057d8;
-    color: #fff;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-section .card-login .card-body {
-    position: absolute;
-    left: 135px;
-}
+	
 
 label {
     display: block;
